@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingSheet = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Show Sheet") {
+            self.showingSheet.toggle()
+        }
+        .sheet(isPresented: $showingSheet) {
+            CustomView()
+        }
     }
 }
 

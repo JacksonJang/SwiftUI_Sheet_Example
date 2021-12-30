@@ -11,6 +11,7 @@
 		E2BABD55277DDD96008E495F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BABD54277DDD96008E495F /* ContentView.swift */; };
 		E2BABD57277DDD97008E495F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BABD56277DDD97008E495F /* Assets.xcassets */; };
 		E2BABD5A277DDD97008E495F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BABD59277DDD97008E495F /* Preview Assets.xcassets */; };
+		E2BABD61277E7366008E495F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BABD60277E7366008E495F /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E2BABD54277DDD96008E495F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2BABD56277DDD97008E495F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2BABD59277DDD97008E495F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2BABD60277E7366008E495F /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				E2BABD52277DDD96008E495F /* SwiftUISheetExampleApp.swift */,
+				E2BABD60277E7366008E495F /* CustomView.swift */,
 				E2BABD54277DDD96008E495F /* ContentView.swift */,
 				E2BABD56277DDD97008E495F /* Assets.xcassets */,
 				E2BABD58277DDD97008E495F /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2BABD61277E7366008E495F /* CustomView.swift in Sources */,
 				E2BABD55277DDD96008E495F /* ContentView.swift in Sources */,
 				E2BABD53277DDD96008E495F /* SwiftUISheetExampleApp.swift in Sources */,
 			);
